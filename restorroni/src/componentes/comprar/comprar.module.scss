@@ -1,0 +1,54 @@
+@import 'styles/variaveis';
+@import 'styles/breakpoints';
+
+.form{
+    margin: 2rem;
+    padding: 2rem 0;
+    box-sizing: border-box;
+    border: 0.1rem solid $dark-grey;
+    border-radius: 10px;
+    background-color: $grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .subtitulo{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .info{
+        width: 20rem;
+        padding: 0.5rem 0;
+        .label{
+            font-weight: bold;
+            margin-right: 0.25rem;
+            font-size: 1.25rem;
+        }
+        .input{
+            height: 2rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            &::placeholder{
+                font-weight: 400;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+    }
+    .select{
+        height: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        .option{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+    .btnComprar{
+        background-color: transparent;
+        color: $red;
+        cursor: pointer;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        padding: 0.5rem;
+        font-weight: bold;
+        border: 2.5px solid $red;
+        border-radius: 7.5px;
+      }
+
+}
