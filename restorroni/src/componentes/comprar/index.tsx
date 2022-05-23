@@ -2,6 +2,7 @@
 import style from './comprar.module.scss';
 import useFormik from '../form/index';
 
+
 export default function Formulario(){
   
   const errors = {
@@ -22,12 +23,12 @@ export default function Formulario(){
     }
   });
 
+
   function Compras(e: { preventDefault: () => void; }){
     e.preventDefault();
     if (!errors.userEmail) {
       alert('Compra aprovada');
-    }
-    else {
+    }else {
       alert('Compra negada');
     }
   }
@@ -94,7 +95,7 @@ export default function Formulario(){
             <option value="valor3"  className={style.option} >Dinheiro físico</option>
           </select>
         </div>
-        <button className={style.btnComprar} onSubmit={ () => Compras}>{'Comprar'}</button>
+        <button className={style.btnComprar} onSubmit={Compras}>{'Comprar'}</button>
       </div>
     </form>
   );
