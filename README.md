@@ -13,7 +13,7 @@ Web-site e-commerce de um restaurante italiano com React, TypeScript, Saas e Boo
 $ git clone https://github.com/brunom764/portifolio.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-restorroni
+$ cd README-a-bendita-italia
 
 # Instale as dependências
 $ npm install
