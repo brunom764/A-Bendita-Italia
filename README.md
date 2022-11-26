@@ -10,7 +10,7 @@ Web-site e-commerce de um restaurante italiano com React, TypeScript, Saas e Boo
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/brunom764/portifolio.git
+$ git clone https://github.com/brunom764/A-Bendita-Italia.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd README-a-bendita-italia
