@@ -5,6 +5,15 @@ Web-site e-commerce de um restaurante italiano com React, TypeScript, Saas e Boo
 <img src='https://portifolio-brunom764.vercel.app/static/media/a-bendita-italia.81007fe735978fe60055.png' heigth:10rem width:50rem/>
 
 
+### 🏁 Features
+
+- [x] Filtro de busca no cardapio
+- [x] Separação por tipos de pratos
+- [x] Formulário de compra
+- [x] Aba para cada prato
+
+
+
 #### 🧭 Rodando a aplicação web
 
 ```bash
