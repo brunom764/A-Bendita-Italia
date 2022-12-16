@@ -12,6 +12,14 @@ Web-site e-commerce de um restaurante italiano com React, TypeScript, Saas e Boo
 - [x] Formulário de compra
 - [x] Aba para cada prato
 
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- React
+- Typescript
+- React Bootstrap
+- Sass
 
 
 #### 🧭 Rodando a aplicação web
